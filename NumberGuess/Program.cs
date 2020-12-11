@@ -19,7 +19,7 @@ namespace NumberGuess
             do
             {
 
-                Console.Write(" Guess a number between 0 and 100: ");
+                Console.Write(" Adivina un numero ");
                 string s = Console.ReadLine();
 
                 int i = int.Parse(s);
