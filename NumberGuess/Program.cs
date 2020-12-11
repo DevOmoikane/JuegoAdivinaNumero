@@ -39,7 +39,9 @@ namespace NumberGuess
                 }
 
                 Console.WriteLine("Presiona una tecla");
+
                 Console.ReadKey();
+
             } while (win == false);
         }
     }
