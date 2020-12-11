@@ -26,19 +26,19 @@ namespace NumberGuess
 
                 if (i > winNum)
                 {
-                    Console.WriteLine("... to high");
+                    Console.WriteLine("... muy grande");
                 }
                 else if (i < winNum)
                 {
-                    Console.WriteLine("... to low");
+                    Console.WriteLine("... muy pequeño");
                 }
                 else if (i == winNum)
                 {
-                    Console.WriteLine("You Win");
+                    Console.WriteLine("Ganaste");
                     win = true;
                 }
 
-                Console.WriteLine("Press any key");
+                Console.WriteLine("Presiona una tecla");
                 Console.ReadKey();
             } while (win == false);
         }
